@@ -40,6 +40,6 @@ jobs:
         with:
           name: dist-files
       - name: List artifacts
-        run: ls dist-files  
+        run: ls 
       - name: Deploy
         run: echo "Deploying..."
